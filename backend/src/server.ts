@@ -5,7 +5,6 @@ import cors from 'cors';
 
 import './database/connection';
 import routes from './routes';
-import errorHandler from './errors/handler';
 import errorhandler from './errors/handler';
 
 const app = express();
